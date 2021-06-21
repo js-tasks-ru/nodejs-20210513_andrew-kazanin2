@@ -36,7 +36,11 @@ module.exports = {
     },
   },
   mailer: {
-    user: '',
-    password: '',
+    host: 'smtp.ethereal.email',
+    port: 587,
+    auth: {
+      user: 'enrico.zulauf54@ethereal.email',
+      pass: 'sq114fTvRYvaSp63FQ',
+    },
   },
 };
